@@ -1,0 +1,32 @@
+.Title {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-bottom: 20px; /* Space between title and grid */
+  margin-top: 75px;
+  color: white;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 16px; /* Space between grid items */
+  padding: 20px;
+}
+
+.grid-item {
+  text-align: center; /* Center text under the image */
+}
+
+.grid-item img {
+  width: 100%; /* Make the image responsive to the grid item */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 350px;
+}
+
+.Page {
+  background-color: #f0d2e8;
+}

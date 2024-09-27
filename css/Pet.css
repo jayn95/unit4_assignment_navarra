@@ -1,0 +1,158 @@
+.backgroundContainer {
+    background-image: url('../assets/bgs/wn_bg.png');
+}
+.whole {
+    padding-top: 75px;
+}
+.back-to-profile {
+    position: fixed;
+    top: 80px;
+    left: 280px;
+    z-index: 999;
+    cursor: pointer;
+    transition: left 0.3s ease;
+    width: 80px;
+    height: 80px;
+}
+.back-to-profile img{
+    width: 100%;
+    height: auto;
+}
+
+.back-to-profile:hover {
+    width: 6%;
+}
+
+.animalDetails {
+    min-width: 600px;
+    min-height: 650px;
+    max-width: 600px;
+    max-height: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(177,130,183);
+    background: linear-gradient(0deg, rgba(177,130,183,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    position: fixed; 
+    left: 4vw;
+    top: 6vw;
+    filter: drop-shadow(0px 0px 7px #6b6b6b);
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5), 0 0 1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.animalDetails img{
+    position: relative;
+    top: 25px;
+    width: 80%;
+    height: auto;
+    z-index: 1;
+}
+  
+  .animalDetails h2 {
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 1px;
+    margin-top: 30px;
+    font-family: 'Monteserrat';
+  }
+
+  .animalDetails h3{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Quicksand';
+    font-weight: lighter;
+  }
+
+  .animalProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F8F7F4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .whole{
+    position: relative;
+  }
+  .animalProfile img {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #B784B7;
+  }
+  
+  .animalProfile h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .animalProfile p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .tabs {
+    position: absolute;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    gap: 1px;
+    left: 710px;
+    top: 187px;
+}
+
+.tab {
+    width: 125px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: rgb(195,177,225);
+    background: linear-gradient(0deg, rgba(248,200,220,1) 0%, rgba(195,177,225,1) 100%);
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer; /* Add cursor pointer for better UX */
+    font-family: 'Quicksand';
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5), 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.tab h2{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.tab:hover {
+    background: rgb(220, 180, 240); /* Change the background on hover */
+    background: linear-gradient(0deg, rgba(255, 230, 240, 1) 0%, rgba(220, 180, 240, 1) 100%);
+    transform: translateY(-30px); /* Move the tab upward */
+}
+
+.tab.active {
+    transform: translateY(-35px); /* Keep the tab in the upward position */
+    background: rgb(220, 180, 240); /* Optional: keep the hover color */
+}
+
+.aboutPet{
+    min-width: 600px;
+    min-height: 350px;
+    width: 920px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(195,177,225);
+    background: linear-gradient(0deg, rgba(195,177,225,1) 0%, rgba(248,200,220,1) 100%);
+    border-radius: 10px;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5), 0 0 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    position: absolute; 
+    left: 700px; 
+    top: 200px;
+}
